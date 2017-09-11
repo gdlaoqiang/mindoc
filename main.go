@@ -34,7 +34,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Create service error => ", err)
-		os.Exit(1)
+		os.Exit(1)ed
 	}
 
 	s.Run()
